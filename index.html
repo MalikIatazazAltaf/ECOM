@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Shop Digital </title>
+<style>
+    header {
+
+background-color: rgb(31, 31, 100);
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    }
+
+.hero_image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4cw0ODgDP4NoPQ9y1_X0z5rin368hE-cI2w&usqp=CAU" );
+    height: 500px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+    
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+footer {
+    background-color:rgb(31, 31, 100);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media {
+        margin-bottom: 20px;
+    }
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff9900; 
+    color: #fff; 
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.men{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+}
+.men a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.men a:hover {
+    background-color: #ff9900;
+    color: #333;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    background-color: #555;
+}
+</style>
+
+
+</head>
+<header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvYCjgH01wiApKqFsYfkykehmYpiJ1u79RvTgdzCkFyakpNJRIJtvKgECkGvI5oGYtVg&usqp=CAU" alt="website logo" width="150px" height="75px">
+    <div class="search_container">
+        <input type="text" placeholder="Search">
+        <button class="search-button">Search</button>
+    </div>    
+    <nav>
+        <ul class="men">
+            <li> <a href="index.html"> Home</a></li>
+            <li> <a href="Products.html"> Products</a></li>
+            <li> <a href="About_us.html"> About Us</a></li>
+            <li> <a href="Contact.html"> Contact</a></li>
+    </ul>
+    </nav>
+
+</header>
+<body>
+<div class="hero_image">
+    <div class="hero-text"> 
+<h1 style="font-size: 50px;">Health & Personal Care</h1>
+<button onclick="document.location='Products.html'">Shop Now</button>
+</div>
+
+
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="social-media">
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+        </div>
+        <div class="company-info">
+            <p>Health and Personal Care Ltd</p>
+            <p>IslamAbad, Bahria Town</p>
+            <p>Phone: (+92) 456789010</p>
+        </div>
+    </div>
+</footer>
+</body>
+
+
+
+
+
+</html>

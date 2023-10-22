@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+            header {
+background-color: rgb(31, 31, 100);
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto   ;
+  background-color:white;
+  padding: 10px;
+}
+@media (max-width: 1000px) {
+    .grid-container {
+  display: grid;
+  grid-template-columns:  auto auto   ;
+  background-color:white;
+  padding: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+.grid-item {
+  background-color:whitesmoke;
+  flex: 25%;
+  
+  padding: 20px;
+  font-size: 30px;
+  margin: 3px;
+  text-align: center;
+}
+footer {
+    background-color:rgb(31, 31, 100);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media {
+        margin-bottom: 20px;
+    }
+}
+.men{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+}
+.men a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.men a:hover {
+    background-color: #ff9900;
+    color: #333;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    background-color: #555;
+}
+    </style>
+</head>
+<header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvYCjgH01wiApKqFsYfkykehmYpiJ1u79RvTgdzCkFyakpNJRIJtvKgECkGvI5oGYtVg&usqp=CAU" alt="website logo" width="150px" height="75px">
+    <div class="search_container">
+        <input type="text" placeholder="Search">
+        <button class="search-button">Search</button>
+    </div>    
+    <nav>
+        <ul class="men">
+            <li> <a href="index.html"> Home</a></li>
+            <li> <a href="Products.html"> Products</a></li>
+            <li> <a href="About_us.html"> About Us</a></li>
+            <li> <a href="Contact.html"> Contact</a></li>
+    </ul>
+    </nav>
+
+</header>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/71hTh2nFqMS._AC_UL320_.jpg" alt="item" >
+            <p style="font-size: 20px;">Dove Men+Care Hair + Skin Care <br>
+                Regimen Personal Care for Men Clean Comfort <br>
+                 + Fresh & Clean Body Wash, <br>
+                 2-in-1 Shampoo and Conditioner, <br>
+                 and Antiperspirant Clinical Deodorant</p>
+        </div>
+        <div class="grid-item">
+        <img src="https://m.media-amazon.com/images/I/81XgHeVWEvL._AC_UL320_.jpg" alt="item">
+        <p style="font-size: 20px;">Dove Men+Care Deodorant Stick <br>
+            for Men Extra Fresh 4 Count <br>
+            Aluminum Free 72-Hour Odor <br>
+            Protection Mens Deodorant <br>
+            with 1/4 Moisturizing Cream 3 oz</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/51duDeyCoSL._AC_UL320_.jpg" alt="item">
+            <p style="font-size: 20px;">
+                Revision Skincare Brightening <br>
+                Facial Wash, Brightens skin with <br>
+                radiant-boosting Vitamin C, <br>
+                Exfoliates dead surface cells <br>
+                for softer, smoother skin, <br>
+                Combines with Vitamin E, 6.7 Fl Oz
+            </p>
+        </div>  
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/81TgnMVRd4L._AC_UL320_.jpg" alt="item">
+            <p style="font-size: 20px;">
+                Crest 3D Whitestrips, Vivid Plus, <br> 
+                Teeth Whitening Strip Kit, 24 Count <br>
+                (Pack of 1)
+            
+            </p>
+        </div>
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/71b6yPN6jKL._AC_UL320_.jpg" alt="">
+            <p style="font-size: 20px;">
+                Dove Beauty Bar Skin Cleanser for <br>
+                Gentle Soft Skin Care Shea Butter <br>
+                More Moisturizing Than Bar Soap <br>
+                3.75 oz 8 Bars
+            </p>
+        </div>
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/91mLn4-lr-L._AC_UL320_.jpg" alt="">
+            <p style="font-size: 20px;">
+                Philips Norelco Shaver 3800, Rechargeable <br>
+                 Wet & Dry Shaver with Pop-up Trimmer, <br>
+                 Charging Stand and Storage Pouch, Space <br> 
+                 Gray, S3311/8            </p>
+        </div>  
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/71vhvlI9D7L._AC_UL320_.jpg" alt="">
+            <p style="font-size: 20px;">
+                ACT Kids Anticavity Fluoride Toothpaste 4.6 oz. <br>
+                Bubble Gum Blowout
+            </p>
+        </div>
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/81UWFtntZgL._AC_UL320_.jpg" alt="">
+            <p style="font-size: 20px;">
+                Dove Advanced Care Antiperspirant Cool Essentials 4 Count Deodorant for Women <br>
+                For 48 Hour Protection And Soft And Comfortable Underarms 2.6 oz
+            </p>
+        </div>
+        
+      </div>
+      <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.twitter.com">Twitter</a>
+                <a href="https://www.linkedin.com">LinkedIn</a>
+            </div>
+            <div class="company-info">
+                <p>Health and Personal Care Ltd</p>
+                <p>IslamAbad, Bahria Town</p>
+                <p>Phone: (+92) 456789010</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

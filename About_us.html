@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Shop Digital </title>
+<style>
+    header {
+
+background-color: rgb(31, 31, 100);
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    }
+    footer {
+    background-color:rgb(31, 31, 100);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media {
+        margin-bottom: 20px;
+    }
+}
+.men{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+}
+.men a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.men a:hover {
+    background-color: #ff9900;
+    color: #333;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    background-color: #555;
+}
+.about-us-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-us-container h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.about-us-container p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+</style>
+</head>
+<header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvYCjgH01wiApKqFsYfkykehmYpiJ1u79RvTgdzCkFyakpNJRIJtvKgECkGvI5oGYtVg&usqp=CAU" alt="website logo" width="150px" height="75px">
+    <div class="search_container">
+        <input type="text" placeholder="Search">
+        <button class="search-button">Search</button>
+    </div>    
+    <nav>
+        <ul class="men">
+            <li> <a href="index.html"> Home</a></li>
+            <li> <a href="Products.html"> Products</a></li>
+            <li> <a href="About_us.html"> About Us</a></li>
+            <li> <a href="Contact.html"> Contact</a></li>
+    </ul>
+    </nav>
+
+</header>
+<body>
+    <div class="about-us-container">
+        <h1>About Our Company</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed viverra magna quis arcu rhoncus, eu euismod purus interdum. 
+            Nulla facilisi. Sed in lectus at arcu rhoncus.
+        </p>
+        <p>
+            Suspendisse potenti. Proin eu vestibulum dui. Sed in bibendum ex.
+            Nunc nec ex quam. Aliquam ullamcorper, justo non malesuada
+            tincidunt, est ex lacinia massa.
+        </p>
+    </div>
+
+
+
+
+
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="social-media">
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+        </div>
+        <div class="company-info">
+            <p>Health and Personal Care Ltd</p>
+            <p>IslamAbad, Bahria Town</p>
+            <p>Phone: (+92) 456789010</p>
+        </div>
+    </div>
+</footer>
+</body>
